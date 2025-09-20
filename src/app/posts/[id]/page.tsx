@@ -1,12 +1,17 @@
 import posts from "@/data/posts.json";
 import { generatePostsParams } from "@/lib/params/posts-params";
 
+type Props = {
+  params: Promise<{id: string}>;
+}
+
 export async function generateStaticParams() {
   return generatePostsParams();
 }
 
-export default function PostPage({ params }: { params: { id: string } }) {
-  const post = posts.find(p => p.id === params.id);
+export default async function PostPage({ params }: Props) {
+  const { id } = await params;
+  const post = posts.find(p => p.id === id);
 
   if (!post) return <h1 className="title">Post not found</h1>;
 

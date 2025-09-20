@@ -7,9 +7,9 @@ export async function generateProductParams() {
     category: string;
     image: string;
     rating: {
-    rate: number;
-    count: number;
-  };
+      rate: number;
+      count: number;
+    };
   }
 
   const res = await fetch("https://fakestoreapi.com/products");
