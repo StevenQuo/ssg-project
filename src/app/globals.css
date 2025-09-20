@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-container{
+  @apply flex flex-col text-center justify-center items-center w-full h-screen;
+}
+
+
+h1{
+  @apply text-5xl font-bold;
+}

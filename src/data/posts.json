@@ -1,0 +1,4 @@
+[
+  { "id": "1", "title": "Test Penerapan SSG", "content": "Halo ini post pertama. Dalam penggunaan SSG di Next JS" },
+  { "id": "2", "title": "Tujuan Penggunaan SSG", "content": "Server hanya perlu mengirimkan file HTML yang sudah jadi. Tidak ada waktu pemrosesan atau menunggu database." }
+]
