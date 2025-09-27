@@ -1,4 +1,30 @@
 [
-  { "id": "1", "title": "Test Penerapan SSG", "content": "Halo ini post pertama. Dalam penggunaan SSG di Next JS" },
-  { "id": "2", "title": "Tujuan Penggunaan SSG", "content": "Server hanya perlu mengirimkan file HTML yang sudah jadi. Tidak ada waktu pemrosesan atau menunggu database." }
+  {
+    "slug": "getting-started-with-react",
+    "title": "A Comprehensive Guide to Getting Started with React for Beginners",
+    "content": "React is a popular JavaScript library for building user interfaces. In this guide, we will cover fundamental concepts like components, state, and props.",
+    "date": "2025-09-27",
+    "imgUrl": "https://images.unsplash.com/photo-1687603917313-ccae1a289a9d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "slug": "special-fried-rice-recipe",
+    "title": "Special Restaurant-Style Fried Rice Recipe",
+    "content": "Who doesn't love fried rice? Here is the secret recipe to make delicious and aromatic fried rice just like a professional chef. The main ingredients are simple and easy to find.",
+    "date": "2025-09-26",
+    "imgUrl": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "slug": "remote-work-productivity-tips",
+    "title": "5 Tips to Boost Productivity While Working Remotely",
+    "content": "Working from home offers flexibility but also comes with challenges. Set up a comfortable workspace, create a daily schedule, and don't forget to take regular breaks to stay productive.",
+    "date": "2025-09-25",
+    "imgUrl": "https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "slug": "understanding-apis-in-depth",
+    "title": "What is an API? An Introduction for Non-Programmers",
+    "content": "An API (Application Programming Interface) is a bridge that allows different applications to communicate with each other. Think of it like a waiter in a restaurant who takes your order and relays it to the kitchen.",
+    "date": "2025-09-24",
+    "imgUrl": "https://images.unsplash.com/photo-1618044619888-009e412ff12a?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
 ]
