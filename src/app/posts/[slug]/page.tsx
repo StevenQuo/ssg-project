@@ -1,6 +1,7 @@
 import posts from "@/data/posts.json";
 import { generatePostsParams } from "@/lib/params/posts-params";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: Promise<{slug: string}>;
@@ -15,7 +16,7 @@ export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const post = posts.find(p => p.slug === slug);
 
-  if (!post) return <h1 className="title">Post not found</h1>;
+  if (!post) return notFound();
 
   const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
 		year: "numeric",
