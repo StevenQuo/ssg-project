@@ -16,7 +16,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-20 bg-neutral-100/50 backdrop-blur-md">
+    <header className="sticky top-0 z-20 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex-shrink-0">
           <Link 
@@ -36,11 +36,11 @@ export default function Header() {
             <Link 
               key={item.slug} 
               href={`/${item.slug}`} 
-              className="text-sm font-medium text-gray-500 transition-colors hover:text-gray-800 dark:text-gray-300 dark:hover:text-gray-400"
+              className="text-sm font-medium text-gray-500 transition-colors hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
             >
               <span className={clsx(
-					isActive ? "border-neutral-900 text-neutral-900" : "border-transparent text-neutral-500",
-					"inline-flex items-center border-b-2 pt-px text-sm font-medium hover:text-neutral-700",
+					isActive ? "border-neutral-900 text-neutral-900 dark:text-white dark:border-white" : "border-transparent text-neutral-500",
+					"inline-flex items-center border-b-2 pt-px text-sm font-medium hover:text-neutral-700 hover:dark:text-neutral-700",
 				)}>{item.title}</span>
             </Link>
           )})}
