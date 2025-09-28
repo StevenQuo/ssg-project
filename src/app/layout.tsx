@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Suspense, type ReactNode } from "react";
+import { type ReactNode } from "react";
 import { type Metadata } from "next";
-import { DraftModeNotification } from "@/ui/components/DraftModeNotification";
 import Header from "@/ui/components/Header";
+import Footer from "@/ui/components/Footer";
 
 const inter = Inter({ 
   variable: "--font-inter",
@@ -23,9 +23,7 @@ export default function RootLayout(props: { children: ReactNode }) {
 			<body className={`${inter.className} min-h-dvh`}>
 				<Header />
 				<div className="">{children}</div>
-				<Suspense>
-					<DraftModeNotification />
-				</Suspense>
+				<Footer />
 			</body>
 		</html>
 	);
