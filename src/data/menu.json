@@ -8,6 +8,10 @@
     "title": "About"
   },
   {
+    "slug": "reviews",
+    "title": "Reviews"
+  },
+  {
     "slug": "posts",
     "title": "Posts"
   },

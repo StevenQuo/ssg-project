@@ -97,7 +97,7 @@ const HeroSection = () => {
               h-80 sm:h-[450px] lg:h-[600px]
           ">
             <Image
-              src="/images/macbook-light.png" // Replace with your image path
+              src="/images/macbook-light.png"
               alt="Macbook"
               fill
               priority
@@ -106,7 +106,7 @@ const HeroSection = () => {
             />
 
             <Image
-              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace with your image path
+              src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Macbook"
               fill
               priority

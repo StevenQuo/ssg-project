@@ -77,7 +77,7 @@ export default function Header() {
               <Link
                 key={item.slug}
                 href={`/${item.slug}`}
-                onClick={() => setIsMenuOpen(false)} // Tutup menu setelah link diklik
+                onClick={() => setIsMenuOpen(false)}
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
               >
                 {item.title}
