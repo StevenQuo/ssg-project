@@ -45,7 +45,7 @@ export default async function ProductDetailPage({ params }: Props) {
 				</div>
 				<div className="flex flex-col pt-6 sm:col-span-1 sm:px-6 sm:pt-0 lg:col-span-3 lg:pt-16">
 					<div>
-						<h1 className="mb-4 flex-auto text-3xl font-medium tracking-tight text-neutral-900">
+						<h1 className="mb-4 flex-auto text-3xl font-medium tracking-tight text-neutral-900 dark:text-white">
 							{product.title}
 						</h1>
 						<p className="mb-8 text-sm " data-testid="ProductElement_Price">
