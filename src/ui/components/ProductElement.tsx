@@ -24,12 +24,12 @@ export default function ProductElement({
 					)}
 					<div className="mt-2 flex justify-between">
 						<div>
-							<h3 className="mt-1 text-sm font-semibold text-neutral-900">{product.title}</h3>
+							<h3 className="mt-1 text-sm font-semibold text-neutral-900 dark:text-white">{product.title}</h3>
 							<p className="mt-1 text-sm text-neutral-500" data-testid="ProductElement_Category">
 								{product.category}
 							</p>
 						</div>
-						<p className="mt-1 text-sm font-medium text-neutral-900" data-testid="ProductElement_PriceRange">
+						<p className="mt-1 text-sm font-medium text-neutral-900 dark:text-white" data-testid="ProductElement_PriceRange">
 							$ {product.price}
 						</p>
 					</div>
