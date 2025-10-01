@@ -18,5 +18,9 @@
   {
     "slug": "products",
     "title": "Products"
+  },
+  {
+    "slug": "contact",
+    "title": "Contact"
   }
 ]
