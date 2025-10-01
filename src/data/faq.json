@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Are your products new and authentic Apple originals?",
+    "answer": "Yes, all products sold through our store are 100% brand new, authentic, and sourced directly from Apple as an Authorized Reseller. Every item comes sealed with Apple's standard warranty."
+  },
+  {
+    "id": 2,
+    "question": "Do you offer international shipping?",
+    "answer": "Currently, we only ship within the country. We are working to expand our services to international regions soon. Please check our Shipping Policy for detailed local delivery times."
+  },
+  {
+    "id": 3,
+    "question": "What is your return and exchange policy for opened products?",
+    "answer": "Due to Apple's strict policies, opened products are generally subject to a restocking fee or may not be eligible for a full refund, except in cases of manufacturing defects. Please review the full policy details on our 'Returns' page."
+  },
+  {
+    "id": 4,
+    "question": "Can I trade in my old device for credit?",
+    "answer": "Absolutely. We offer a competitive trade-in program for eligible Apple devices. You can get an estimated quote directly on our dedicated Trade-In page or visit our physical store for a final assessment."
+  }
+]

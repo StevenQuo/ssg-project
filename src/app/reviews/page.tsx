@@ -59,7 +59,7 @@ export default function ReviewsDetail() {
         {/* === HEADLINE HALAMAN DETAIL === */}
         <div className="text-center mb-16 lg:mb-20">
           <p className="
-              text-lg 
+              text-md lg:text-lg 
               font-light tracking-widest 
               text-gray-600 dark:text-gray-400 
               uppercase mb-3
@@ -67,7 +67,7 @@ export default function ReviewsDetail() {
             COMMUNITY VOICE
           </p>
           <h1 className="
-              text-6xl sm:text-7xl 
+              text-4xl lg:text-6xl sm:text-7xl 
               font-extrabold 
               text-black dark:text-white 
               leading-none

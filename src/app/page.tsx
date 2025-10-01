@@ -1,8 +1,8 @@
 import AboutPage from "./about/page";
-import PostsPage from "./posts/page";
 import ProductsPage from "./products/page";
 import HeroSection from "@/ui/components/HeroSection"
 import TestimonialsSection from "@/ui/components/TestimonialsSection";
+import FAQSection from "@/ui/components/FAQSection";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <AboutPage />
       <TestimonialsSection />
       <ProductsPage />
-      <PostsPage />
+      <FAQSection />
     </section>
   );
 }

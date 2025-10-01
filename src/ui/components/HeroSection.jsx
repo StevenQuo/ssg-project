@@ -55,7 +55,7 @@ const HeroSection = () => {
           </p>
           
           {/* Call to Action (CTA) - Maximum Contrast */}
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-6">
+          <div className="flex flex-col sm:flex-row mb-13 lg:mb-0 justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-6">
             
             {/* Primary CTA: High Contrast Button */}
             <Link href="/products" className="
