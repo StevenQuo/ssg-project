@@ -28,7 +28,7 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Menu untuk Desktop (tersembunyi di mobile) */}
+        {/* Menu untuk Desktop */}
         <nav className="hidden md:flex md:items-center md:space-x-8">
           {menu.map((item) => {
             const isActive = pathname === `/${item.slug}`;
@@ -46,7 +46,7 @@ export default function Header() {
           )})}
         </nav>
 
-        {/* Tombol Hamburger untuk Mobile (tersembunyi di desktop) */}
+        {/* Tombol Hamburger untuk Mobile */}
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -71,14 +71,14 @@ export default function Header() {
 
       {/* Panel Menu Mobile yang Muncul/Hilang */}
       {isMenuOpen && (
-        <nav className="border-t border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900 md:hidden">
+        <nav className="border-t border-gray-200 dark:border-gray-700 md:hidden">
           <div className="space-y-1 px-2 pt-2 pb-3">
             {menu.map((item) => (
               <Link
                 key={item.slug}
                 href={`/${item.slug}`}
                 onClick={() => setIsMenuOpen(false)} // Tutup menu setelah link diklik
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
               >
                 {item.title}
               </Link>
