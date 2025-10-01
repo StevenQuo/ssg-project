@@ -12,7 +12,7 @@ const Footer = () => {
                         {menu.map((item) => {
                             return (
                                 <li key={item.slug} className="text-sm">
-                                    <Link href={item.slug}>{item.title}</Link>
+                                    <Link href={`/${item.slug}`}>{item.title}</Link>
                                 </li>
                             );
                         })}
