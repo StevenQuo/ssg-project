@@ -2,8 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { type ReactNode } from "react";
 import { type Metadata } from "next";
-import Header from "@/ui/components/Header";
-import Footer from "@/ui/components/Footer";
+import Header from "@/ui/sections/Header";
+import Footer from "@/ui/sections/Footer";
 
 const inter = Inter({ 
   variable: "--font-inter",
@@ -22,7 +22,7 @@ export default function RootLayout(props: { children: ReactNode }) {
 		<html lang="en" className="min-h-dvh">
 			<body className={`${inter.className} min-h-dvh`}>
 				<Header />
-				<div className="">{children}</div>
+				<div>{children}</div>
 				<Footer />
 			</body>
 		</html>

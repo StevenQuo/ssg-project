@@ -17,10 +17,8 @@ const HeroSection = () => {
           items-center
       ">
         
-        {/* === LEFT CONTENT (Text) === */}
         <div className="z-10 text-center lg:text-left">
           
-          {/* Tagline */}
           <p className="
               text-lg 
               text-black dark:text-white 
@@ -31,7 +29,6 @@ const HeroSection = () => {
             NEW LEVEL OF ELEGANCE
           </p>
           
-          {/* Main Headline - Bold and Large */}
           <h1 className="
               text-5xl sm:text-6xl lg:text-7xl 
               font-bold 
@@ -42,7 +39,6 @@ const HeroSection = () => {
             Designed <span className="text-gray-500 dark:text-gray-400">for</span> Simplicity.
           </h1>
           
-          {/* Subheading/Description - Light Font */}
           <p className="
               text-lg 
               text-black dark:text-white 
@@ -54,10 +50,8 @@ const HeroSection = () => {
             The power is in the details. Experience intuitive interfaces powered by cutting-edge technology.
           </p>
           
-          {/* Call to Action (CTA) - Maximum Contrast */}
           <div className="flex flex-col sm:flex-row mb-13 lg:mb-0 justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-6">
             
-            {/* Primary CTA: High Contrast Button */}
             <Link href="/products" className="
                 px-8 py-3 
                 text-lg font-medium 
@@ -72,7 +66,6 @@ const HeroSection = () => {
               Buy Now
             </Link>
             
-            {/* Secondary CTA: Outline Button (Explore More) */}
             <Link href="/about" className="
                 px-8 py-3 
                 text-lg font-medium 
@@ -89,7 +82,6 @@ const HeroSection = () => {
           </div>
         </div>
         
-        {/* === RIGHT IMAGE === */}
         <div className="z-10 order-first lg:order-last flex justify-center lg:justify-end">
           <div className="
               relative 

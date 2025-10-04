@@ -1,5 +1,6 @@
 import { getProduct } from "@/lib/products";
 import { generateProductParams } from "@/lib/params/products-params";
+import getMessage from "@/lib/message";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,19 +16,7 @@ export default async function ProductDetailPage({ params }: Props) {
     
   const { id } = await params;
   const product = await getProduct(id);
-
-  const message = `Halo, saya ingin memesan *${product.title}* dengan rincian:
-  Harga: $ ${product.price};
-  Kategori: ${product.category};
-  Brand: ${product.brand};
-  Berat: ${product.weight};
-  Dimensi: 
-    Lebar: ${product.dimensions.width} inch
-    Tinggi: ${product.dimensions.height} inch
-
-  Terima kasih.`;
-
-  const encodedMessage = encodeURIComponent(message);
+  const message = getMessage(product);
 
   return (
     <section className="mx-auto grid max-w-7xl p-8">
@@ -53,7 +42,7 @@ export default async function ProductDetailPage({ params }: Props) {
 						</p>
 
 						<div className="mt-8">
-              <Link className="px-4 py-2 border border-black text-black rounded-lg transition-colors duration-200 dark:border-white dark:text-white hover:bg-[#25D366] hover:text-white hover:border-[#25D366] whitespace-nowrap" href={`https://wa.me/6281329578424?text=${encodedMessage}`}>Order by WhatsApp</Link>
+              <Link className="px-4 py-2 border border-black text-black rounded-lg transition-colors duration-200 dark:border-white dark:text-white hover:bg-[#25D366] hover:text-white hover:border-[#25D366] whitespace-nowrap" href={`https://wa.me/6281329578424?text=${message}`}>Order by WhatsApp</Link>
 						</div>
 						{product.description && (
 							<div className="mt-8 space-y-6 text-sm text-neutral-500">

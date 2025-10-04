@@ -14,7 +14,6 @@ const AboutPage = () => {
           gap-10 lg:gap-16 
       ">
         
-        {/* === LEFT CONTENT: LARGE HEADLINE === */}
         <div className="lg:col-span-4 z-10 text-center lg:text-left">
           <h2 className="
               text-4xl sm:text-5xl 
@@ -27,10 +26,7 @@ const AboutPage = () => {
           </h2>
         </div>
         
-        {/* === RIGHT CONTENT: NARRATIVE & DETAILS === */}
         <div className="lg:col-span-8 z-10">
-          
-          {/* Main Paragraph (Vision) - Focus on Quality */}
           <p className="
               text-xl md:text-2xl 
               text-black dark:text-white 
@@ -40,7 +36,6 @@ const AboutPage = () => {
             We are dedicated to bridging the gap between revolutionary technology and the people who use it. Our vision is to be your most trusted partner in acquiring and understanding the complete Apple ecosystem.
           </p>
           
-          {/* Detail Paragraph (Brand Story) - Focus on Service */}
           <p className="
               text-base md:text-lg 
               text-gray-600 dark:text-gray-400 
@@ -50,7 +45,6 @@ const AboutPage = () => {
             More than just a retailer, we are certified experts. From the moment you unbox your device to advanced technical support, we ensure every interaction reflects the premium quality Apple stands for. Choose authenticity, choose expertise.
           </p>
           
-          {/* Secondary CTA */}
           <Link href="/posts" className="
               text-lg font-medium 
               border-b border-black dark:border-white 

@@ -14,7 +14,6 @@ export default function ContactPage() {
             gap-12 lg:gap-20
         ">
           
-          {/* === KOLOM KIRI: INFORMASI KONTAK & HEADLINE === */}
           <div className="lg:col-span-5">
             <h2 className="
                 text-4xl sm:text-5xl 
@@ -35,7 +34,6 @@ export default function ContactPage() {
               Whether you need technical support, sales advice, or partnership details, our team is ready to assist.
             </p>
             
-            {/* Detail Kontak */}
             <div className="space-y-6 pt-4">
               <div className="border-l-4 border-black dark:border-white pl-4">
                 <h4 className="text-lg font-medium text-black dark:text-white">Email Support</h4>
@@ -60,7 +58,6 @@ export default function ContactPage() {
             </div>
           </div>
           
-          {/* === KOLOM KANAN: FORMULIR KONTAK === */}
           <div className="lg:col-span-7 p-8 md:p-12 
               bg-gray-50 dark:bg-neutral-900 
               rounded-xl shadow-xl 
@@ -68,8 +65,6 @@ export default function ContactPage() {
               transition-colors duration-700
           ">
             <form className="space-y-6">
-              
-              {/* Nama */}
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-black dark:text-white mb-2">
                   Full Name
@@ -86,7 +81,6 @@ export default function ContactPage() {
                 />
               </div>
 
-              {/* Email */}
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-black dark:text-white mb-2">
                   Email Address
@@ -103,7 +97,6 @@ export default function ContactPage() {
                 />
               </div>
 
-              {/* Pesan */}
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-black dark:text-white mb-2">
                   Your Message
@@ -120,7 +113,6 @@ export default function ContactPage() {
                 />
               </div>
 
-              {/* Tombol Submit */}
               <button 
                 type="submit" 
                 className="
